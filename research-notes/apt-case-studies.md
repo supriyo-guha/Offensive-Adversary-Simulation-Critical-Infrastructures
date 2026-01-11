@@ -58,6 +58,26 @@ Triton illustrates the role of **long-term persistence** and the importance of u
 
 ---
 
+## SolarWinds Orion Supply-Chain Attack (2020)
+The SolarWinds Orion compromise represents one of the most sophisticated and consequential supply-chain attacks publicly disclosed to date. A trojanized software update was distributed to thousands of organizations, including government agencies and operators of critical infrastructure.
+
+### Key Observations
+- Compromise of a trusted software supplier
+- Stealthy backdoor deployment via legitimate update mechanisms
+- Extended dwell time with minimal detectable artifacts
+- Targeted follow-on exploitation of high-value enterprise environments
+
+### Research Implications
+SolarWinds demonstrates that:
+- **Trust relationships and software dependencies are primary attack surfaces**
+- Supply-chain compromise enables broad initial access without direct targeting
+- Long-term stealth and selective exploitation are hallmarks of advanced adversaries
+- Enterprise domain intrusion can serve as a staging ground for future strategic or operational objectives
+
+This case is central to adversary simulation research focused on **persistence, trust abuse, and decision-layer impact**, even in the absence of immediate OT effects.
+
+---
+
 ## Mumbai Power Grid Blackout (2020)
 In October 2020, a large-scale power outage affected Mumbai and surrounding regions. Subsequent investigations indicated the presence of malicious activity within the power utility’s IT environment.
 
@@ -115,6 +135,44 @@ The AIIMS incident demonstrates that:
 - Cyber incidents can cascade into public safety and humanitarian consequences
 
 This case reinforces the need to model **service dependency and recovery complexity** in adversary simulation.
+
+---
+
+## Ukraine Power Grid and Critical Infrastructure Cyber Operations (2022–2024)
+Since 2022, multiple cyber operations targeting Ukrainian critical infrastructure have been publicly reported, coinciding with broader geopolitical conflict. These operations include intrusions affecting power utilities, telecommunications, transportation, and government services.
+
+### Key Observations
+- Sustained campaigns involving long-term persistence
+- Enterprise IT compromise frequently precedes operational disruption
+- Not all operations result in permanent physical damage
+- Cyber activity often aims to degrade reliability, availability, or operator confidence rather than destroy systems
+
+### Research Implications
+These operations demonstrate that:
+- **Cyber–physical impact may arise from sustained uncertainty and degradation**, not only from destructive attacks
+- Adversary behavior adapts to defensive and operational constraints
+- IT–OT interdependencies extend beyond technical connectivity to include human and organizational response
+
+This case strongly supports adversary simulation focused on **behavior, decision-making, and persistence**, rather than exploit replication.
+
+---
+
+## MOVEit Transfer Supply-Chain Attacks (2023)
+In 2023, a widespread exploitation of vulnerabilities in the MOVEit Transfer managed file transfer software led to the compromise of numerous organizations, including government agencies, healthcare providers, and critical service operators.
+
+### Key Observations
+- Exploitation of trusted third-party software
+- Large-scale enterprise compromise through a common dependency
+- Secondary impacts on organizations providing essential services
+- Disruption driven by data exposure and service availability concerns
+
+### Research Implications
+While not an OT-specific incident, the MOVEit attacks are relevant because they demonstrate:
+- **Supply-chain compromise as an indirect pathway to critical infrastructure disruption**
+- How enterprise software vulnerabilities can cascade into operational and service-level impact
+- The importance of modeling **external dependency risk** within adversary simulation frameworks
+
+This case complements IT–OT-focused studies by highlighting non-OT attack vectors that nonetheless affect critical infrastructure resilience.
 
 ---
 
