@@ -99,31 +99,52 @@ This case strongly motivates the inclusion of **organizational and decision-laye
 
 ---
 
-## Enterprise-Focused APTs (APT29, APT28)
-Enterprise-oriented APTs such as APT29 and APT28 demonstrate advanced identity abuse, credential theft, and domain-level persistence.
+## AIIMS Delhi Ransomware Attack (2022)
+In 2022, the All India Institute of Medical Sciences (AIIMS), New Delhi, suffered a major ransomware attack disrupting hospital operations for an extended period.
 
 ### Key Observations
-- Heavy reliance on legitimate credentials
-- Abuse of trust relationships rather than overt exploitation
-- Focus on operational security and evasion
+- Attack targeted enterprise IT systems supporting medical services
+- No direct compromise of medical devices was publicly confirmed
+- Prolonged operational disruption affected patient care and services
+- Recovery required significant manual and administrative intervention
 
 ### Research Implications
-These campaigns underscore the importance of **enterprise domain intrusion modeling** as a precursor to broader operational objectives.
+The AIIMS incident demonstrates that:
+- Essential services can suffer **severe operational impact without OT exploitation**
+- Data availability and system dependency are critical risk factors
+- Cyber incidents can cascade into public safety and humanitarian consequences
+
+This case reinforces the need to model **service dependency and recovery complexity** in adversary simulation.
+
+---
+
+## Enterprise-Focused APT Campaigns (APT29, APT28) (2014–Present)
+Enterprise-oriented APT groups such as APT29 and APT28 exhibit sustained campaigns focused on identity compromise and long-term access.
+
+### Key Observations
+- Extensive abuse of legitimate credentials
+- Preference for stealth and persistence
+- Strategic targeting aligned with geopolitical objectives
+
+### Research Implications
+These campaigns underscore the importance of **enterprise domain intrusion modeling** as a foundational component of adversary simulation.
 
 ---
 
 ## Cross-Case Analysis
-Across these cases, several common themes emerge:
+Across the reviewed cases, several consistent themes emerge:
 
-- IT compromise frequently precedes OT access
-- Trust relationships are a primary attack vector
-- Adversaries favor stealth over speed
-- Operational objectives shape technical decisions
+- Enterprise IT compromise frequently precedes operational impact
+- Trust relationships are primary enablers of adversary movement
+- Adversaries prioritize persistence over immediate disruption
+- Cyber–physical consequences often arise from **organizational and policy decisions**, not direct technical manipulation
+- Attribution uncertainty is a persistent challenge in Cyber incidents
 
-These themes directly inform the adversary models developed in this repository.
+These themes directly inform the adversary lifecycle and system models developed in this repository.
 
 ---
 
 ## Conclusion
-APT case studies provide critical grounding for adversary simulation research. Rather than replicating attacks, this work abstracts **shared behavioral patterns** to enable ethical, repeatable academic study.
+The examined cases demonstrate that critical infrastructure disruption can arise through diverse pathways, including direct industrial control manipulation and indirect enterprise compromise.
 
+By abstracting shared behavioral patterns rather than replicating attacks, this research enables **ethical, repeatable adversary simulation** suitable for doctoral-level study.
