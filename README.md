@@ -1,6 +1,6 @@
 # Offensive Adversary Simulation on Critical Infrastructures
 
-## Overview
+## Abstract
 This repository presents an **academic adversary simulation framework** for the ethical study of **offensive cyber operations targeting critical infrastructure environments**. The work emphasizes **adversary behavior modeling, attack lifecycle abstraction, and IT–OT interaction analysis**, rather than exploit development or operational tooling.
 
 This repository is derived from an M.Tech (Cyber Security) dissertation and is structured to support **doctoral (PhD) research** in Red Teaming and Adversary Simulation.
@@ -8,9 +8,9 @@ This repository is derived from an M.Tech (Cyber Security) dissertation and is s
 ---
 
 ## Research Motivation
-The convergence of Information Technology (IT) and Operational Technology (OT) has expanded the attack surface of critical infrastructures. While defensive controls are widely studied, **controlled offensive simulations that model realistic adversary behavior across segmented IT–OT environments remain limited in academic literature**.
+The increasing convergence of Information Technology (IT) and Operational Technology (OT) has expanded the attack surface of critical infrastructure systems. While defensive mechanisms and incident response strategies are widely studied, **controlled offensive simulations that model realistic adversary behavior across segmented IT–OT environments remain limited in academic literature**.
 
-This work frames **offensive simulation as a research methodology**, enabling systematic analysis of trust abuse, attack progression, and potential cyber–physical risk under ethical constraints.
+This work frames **offensive simulation as a research methodology**, enabling systematic analysis of trust abuse, attack progression, and cyber–physical risk under clearly defined ethical and institutional constraints.
 
 ---
 
