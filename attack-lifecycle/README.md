@@ -6,9 +6,5 @@ states rather than a procedural attack chain.
 
 ## Conceptual Adversary Lifecycle
 
-Then in `README.md`:
+![Conceptual adversary lifecycle diagram](diagrams/adversary-lifecycle.png)
 
-```markdown
-## Conceptual Adversary Lifecycle
-
-![Adversary Lifecycle](diagrams/adversary-lifecycle.png)
