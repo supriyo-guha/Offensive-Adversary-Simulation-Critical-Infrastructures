@@ -7,6 +7,32 @@ This repository is derived from an M.Tech (Cyber Security) dissertation and is s
 
 ---
 
+## Research Contributions
+This repository makes the following **research contributions**:
+
+- Proposes a **behavior-centric adversary simulation framework** for
+  critical infrastructure environments, abstracting adversary actions
+  as decision-driven lifecycle states rather than procedural attack
+  steps.
+
+- Introduces **trust-boundary–oriented modeling** to analyze adversary
+  movement across segmented enterprise IT and operational technology
+  (OT) environments.
+
+- Treats **operational security (OpSec)** as a first-class research
+  variable, modeling trade-offs between stealth, persistence, and
+  detection risk.
+
+- Provides an **ethically safe abstraction layer** derived from a
+  practical and implementation-driven M.Tech dissertation, enabling
+  academic reuse without exposing operational attack code.
+
+These contributions are intended to support reproducible, analytical,
+and doctoral-level research into adversary behavior and cyber–physical
+risk.
+
+---
+
 ## Research Motivation
 The increasing convergence of Information Technology (IT) and Operational Technology (OT) has expanded the attack surface of critical infrastructure systems. While defensive mechanisms and incident response strategies are widely studied, **controlled offensive simulations that model realistic adversary behavior across segmented IT–OT environments remain limited in academic literature**.
 
