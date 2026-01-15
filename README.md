@@ -43,6 +43,10 @@ All contents in this repository is restricted to **authorized, laboratory-based 
 
 ---
 
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+
+---
+
 ## Citation
 If this repository contributes to academic work, please use the provided citation metadata under `citation/`.
 
