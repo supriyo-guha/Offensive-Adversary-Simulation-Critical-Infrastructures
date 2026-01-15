@@ -43,21 +43,20 @@ All contents in this repository is restricted to **authorized, laboratory-based 
 
 ---
 
-License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-
----
-
 ## Citation
 The original *M.Tech* dissertation contains full practical implementations, including experimental setup and technical scripts. This repository presents an **abstracted research framework** derived from that work, intentionally excluding operational code to support ethical academic dissemination and Doctoral-level research.
 
 If this repository contributes to academic work (such as a thesis, dissertation, conference paper, or journal article), please refer to the citation guidance provided under the `citation/` directory.
 
+---
+
+## License
+This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+This license permits non-commercial use, sharing, and adaptation with appropriate attribution, provided that derivative works are distributed under the same license.
 
 ---
 
 ## Disclaimer
 This repository is provided solely for **academic and research purposes**. Unauthorized or illegal cyber activity is neither supported nor endorsed.
 
----
-
-License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
