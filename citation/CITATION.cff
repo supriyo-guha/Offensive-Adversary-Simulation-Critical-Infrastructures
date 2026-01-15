@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work in academic research, please cite it as below."
+title: "Offensive Adversary Simulation for Critical Infrastructure Environments"
+authors:
+  - family-names: "Guha"
+    given-names: "Supriyo"
+    affiliation: "Department of Computer Science and Information Systems, (WILP), Birla Institute of Technology and Science Pilani (BITS Pilani)"
+date-released: 2026
+version: "1.0.0"
+repository-code: "https://github.com/supriyo-guha/Offensive-Adversary-Simulation-Critical-Infrastructures"
+abstract: >
+  This repository presents an abstracted, research-facing adversary simulation framework for critical infrastructure environments, derived from a practical and implementation-driven M.Tech dissertation. The focus is on behavior modeling, IT–OT trust boundaries, and operational security under ethical research constraints.
+keywords:
+  - adversary simulation
+  - critical infrastructure security
+  - IT-OT convergence
+  - offensive security research
+  - cyber-physical systems
+license: "CC-BY-NC-SA-4.0"
