@@ -57,7 +57,7 @@ The repository is organized into research-focused components:
 This repository is intended for:
 - PhD supervisors and research committees
 - Doctoral and postgraduate researchers
-- Cybersecurity researchers studying adversary behavior
+- Cyber Security researchers studying adversary behavior
 - Defensive practitioners seeking attacker-centric insights
 
 It is **not intended for operational offensive use**.
