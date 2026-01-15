@@ -1,5 +1,10 @@
 # Offensive Adversary Simulation on Critical Infrastructures
 
+---
+![Research Architecture Overview](root-banner.png)
+
+---
+
 ## Abstract
 This repository presents an **academic adversary simulation framework** for the ethical study of **offensive cyber operations targeting critical infrastructure environments**. The work emphasizes **adversary behavior modeling, attack lifecycle abstraction, and IT–OT interaction analysis**, rather than exploit development or operational tooling.
 
