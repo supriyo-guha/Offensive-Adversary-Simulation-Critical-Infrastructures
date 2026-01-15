@@ -60,3 +60,8 @@ This license permits non-commercial use, sharing, and adaptation with appropriat
 ## Disclaimer
 This repository is provided solely for **academic and research purposes**. Unauthorized or illegal cyber activity is neither supported nor endorsed.
 
+
+---
+
+© 2025–2026 Supriyo Guha. All rights reserved except where otherwise noted.
+
