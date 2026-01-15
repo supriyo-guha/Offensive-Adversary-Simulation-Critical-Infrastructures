@@ -48,7 +48,10 @@ License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 ---
 
 ## Citation
-If this repository contributes to academic work, please use the provided citation metadata under `citation/`.
+The original *M.Tech* dissertation contains full practical implementations, including experimental setup and technical scripts. This repository presents an **abstracted research framework** derived from that work, intentionally excluding operational code to support ethical academic dissemination and Doctoral-level research.
+
+If this repository contributes to academic work (such as a thesis, dissertation, conference paper, or journal article), please refer to the citation guidance provided under the `citation/` directory.
+
 
 ---
 
