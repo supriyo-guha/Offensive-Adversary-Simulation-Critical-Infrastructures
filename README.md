@@ -1,28 +1,16 @@
 # Offensive Adversary Simulation on Critical Infrastructures
 
 ## Overview
-This repository presents an **academic adversary simulation framework** for the
-ethical study of **offensive cyber operations targeting critical infrastructure
-environments**. The work emphasizes **adversary behavior modeling, attack
-lifecycle abstraction, and IT–OT interaction analysis**, rather than exploit
-development or operational tooling.
+This repository presents an **academic adversary simulation framework** for the ethical study of **offensive cyber operations targeting critical infrastructure environments**. The work emphasizes **adversary behavior modeling, attack lifecycle abstraction, and IT–OT interaction analysis**, rather than exploit development or operational tooling.
 
-This repository is derived from an M.Tech (Cyber Security) dissertation and is
-structured to support **doctoral (PhD) research** in Red Teaming and Adversary
-Simulation.
+This repository is derived from an M.Tech (Cyber Security) dissertation and is structured to support **doctoral (PhD) research** in Red Teaming and Adversary Simulation.
 
 ---
 
 ## Research Motivation
-The convergence of Information Technology (IT) and Operational Technology (OT)
-has expanded the attack surface of critical infrastructures. While defensive
-controls are widely studied, **controlled offensive simulations that model
-realistic adversary behavior across segmented IT–OT environments remain limited
-in academic literature**.
+The convergence of Information Technology (IT) and Operational Technology (OT) has expanded the attack surface of critical infrastructures. While defensive controls are widely studied, **controlled offensive simulations that model realistic adversary behavior across segmented IT–OT environments remain limited in academic literature**.
 
-This work frames **offensive simulation as a research methodology**, enabling
-systematic analysis of trust abuse, attack progression, and potential
-cyber–physical risk under ethical constraints.
+This work frames **offensive simulation as a research methodology**, enabling systematic analysis of trust abuse, attack progression, and potential cyber–physical risk under ethical constraints.
 
 ---
 
@@ -51,18 +39,14 @@ It is **not intended for operational offensive use**.
 ---
 
 ## Ethics and Responsible Research
-All material in this repository is limited to **authorized, laboratory-based
-academic research**. No weaponized code, live infrastructure, or real-world
-targets are included.
+All contents in this repository is restricted to **authorized, laboratory-based academic research**. No weaponized code, live infrastructure, or real-world targets are included.
 
 ---
 
 ## Citation
-If this repository contributes to academic work, please use the provided
-citation metadata under `citation/`.
+If this repository contributes to academic work, please use the provided citation metadata under `citation/`.
 
 ---
 
 ## Disclaimer
-This repository is provided solely for **academic and research purposes**.
-Unauthorized or illegal cyber activity is neither supported nor endorsed.
+This repository is provided solely for **academic and research purposes**. Unauthorized or illegal cyber activity is neither supported nor endorsed.
