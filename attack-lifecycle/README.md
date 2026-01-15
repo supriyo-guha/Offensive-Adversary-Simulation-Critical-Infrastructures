@@ -6,38 +6,9 @@ states rather than a procedural attack chain.
 
 ## Conceptual Adversary Lifecycle
 
-```text
-                +---------------------------+
-                |   Continuous              |
-                |   Reconnaissance          |
-                +-------------+-------------+
-                              |
-                              v
-                +---------------------------+
-                |   Initial Access          |
-                |   (Trust Abuse)           |
-                +-------------+-------------+
-                              |
-                              v
-        +---------------------+---------------------+
-        |                                           |
-        v                                           v
-+---------------------------+         +---------------------------+
-|  Lateral Movement         |         |  Persistence & OpSec      |
-|  (Trust Relationships)    |         |  (Risk Management)        |
-+-------------+-------------+         +-------------+-------------+
-              \                               /
-               \                             /
-                +---------------------------+
-                              |
-                              v
-                +---------------------------+
-                |   IT → OT Pivot           |
-                |   (Mediated Access)       |
-                +-------------+-------------+
-                              |
-                              v
-                +---------------------------+
-                |  Cyber–Physical Impact    |
-                |  (Operational / Decision) |
-                +---------------------------+
+Then in `README.md`:
+
+```markdown
+## Conceptual Adversary Lifecycle
+
+![Adversary Lifecycle](diagrams/adversary-lifecycle.png)
