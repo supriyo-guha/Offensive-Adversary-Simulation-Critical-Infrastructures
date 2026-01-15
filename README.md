@@ -54,3 +54,7 @@ If this repository contributes to academic work, please use the provided citatio
 
 ## Disclaimer
 This repository is provided solely for **academic and research purposes**. Unauthorized or illegal cyber activity is neither supported nor endorsed.
+
+---
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
