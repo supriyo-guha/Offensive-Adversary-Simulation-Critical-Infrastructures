@@ -1,79 +1,77 @@
 # Threat Model Assumptions
 
 ## Purpose of the Threat Model
-This document defines the threat model used throughout this repository to support **controlled, ethical adversary simulation research**. The purpose of the threat model is not to represent any specific real-world actor, but to abstract **classes of adversary behaviors** relevant to critical infrastructure security research.
+This document defines the threat model used throughout this repository to support **controlled, ethical adversary simulation research**. The model does not represent any specific real-world actor; instead, it abstracts **classes of adversary behavior** relevant to the study of critical infrastructure security.
 
-A clearly defined threat model is essential to ensure:
-- methodological consistency,
-- ethical boundaries,
-- reproducibility across academic studies.
+A clearly articulated threat model is necessary to ensure:
+- methodological clarity,
+- ethical containment,
+- and reproducibility across academic research efforts.
 
 ---
 
 ## Adversary Characterization
-The simulated adversary represents a **well-resourced, persistent external threat actor** operating without insider privileges. The adversary is assumed to possess:
+The modeled adversary represents a **well-resourced, persistent external threat actor** operating without insider privileges. The adversary is assumed to possess:
 
-- Proficiency in enterprise IT environments
-- Familiarity with identity and access management systems
-- Understanding of segmented network architectures
-- Awareness of operational technology (OT) environments
-- Emphasis on stealth, persistence, and long-term access
+- proficiency in enterprise IT environments,
+- familiarity with identity and access management systems,
+- understanding of segmented network architectures,
+- awareness of operational technology (OT) environments,
+- and a preference for stealth, persistence, and long-term access.
 
-The adversary’s objective is **situational awareness and operational influence** rather than immediate disruption or financial gain.
+The adversary’s objective is **situational awareness and potential operational influence**, rather than immediate disruption, destruction, or financial gain.
 
 ---
 
 ## Capability Assumptions
-The adversary is assumed to have the following capabilities:
+The adversary is assumed to operate using:
 
-- Use of publicly documented techniques and misconfigurations
-- Ability to chain multiple low-complexity actions into higher-impact outcomes
-- Capability to adapt behavior in response to environmental constraints
-- Knowledge of standard industrial security practices (e.g., zoning and conduits)
+- publicly documented techniques and known misconfigurations,
+- chained low-complexity actions leading to higher-level outcomes,
+- adaptive behavior in response to environmental constraints,
+- knowledge of standard industrial security practices (e.g., zoning and
+  conduits).
 
-The adversary **does not** rely on unknown vulnerabilities or proprietary access.
+The adversary **does not rely on unknown vulnerabilities, zero-day exploits, or proprietary access**.
 
 ---
 
 ## Initial Access Assumptions
-Initial access is constrained to **non-destructive and realistic vectors**, including:
+Initial access is constrained to **non-destructive, realistic vectors**, including:
 
-- User interaction and trust abuse
-- Credential exposure or reuse
-- Misconfigured access pathways
+- trust abuse and user interaction,
+- credential exposure or reuse,
+- misconfigured access pathways.
 
-Zero-day exploitation, hardware compromise, and physical access are explicitly excluded to maintain academic and ethical validity.
+Zero-day exploitation, hardware compromise, and physical access are explicitly excluded to preserve academic validity and ethical safety.
 
 ---
 
 ## Environmental Assumptions
 The modeled environment assumes:
 
-- Proper network segmentation between IT and OT domains
-- Firewall-enforced access control
-- Logging and monitoring infrastructure present but not analyzed in depth
-- Standard enterprise identity services
+- enforced network segmentation between IT and OT domains,
+- firewall-mediated access control,
+- the presence of logging and monitoring mechanisms (not evaluated in depth),
+- standard enterprise identity and authentication services.
 
-These assumptions reflect **baseline industrial security posture**, not worst-case misconfiguration.
+These assumptions represent a **baseline industrial security posture**, rather than worst-case or intentionally vulnerable configurations.
 
 ---
 
 ## Explicit Exclusions
-The following are out of scope:
+The following are explicitly out of scope for this research:
 
-- Insider threats
-- Supply-chain compromise
-- Safety-system sabotage
-- Destructive or irreversible actions
-- Real-world infrastructure targeting
+- insider threats,
+- supply-chain compromise,
+- safety-system sabotage,
+- destructive or irreversible actions,
+- real-world infrastructure targeting.
 
-These exclusions are intentional to align with responsible research norms.
+These exclusions are intentional and align with responsible security research norms.
 
 ---
 
-## Role of the Threat Model in This Research
-This threat model serves as a **research scaffold**. All architectural designs,
-attack lifecycle models, and analytical conclusions in this repository are
-interpreted **only within the bounds of these assumptions**.
+## Role of the Threat Model in This Research This threat model functions as a **research scaffold**. All architectural designs, adversary lifecycle models, and analytical conclusions in this repository are valid **only within the bounds of these assumptions**.
 
-Any extension or reuse of this work should explicitly state deviations from this model.
+Any extension or reuse of this work should explicitly document deviations from this threat model to maintain methodological transparency.
